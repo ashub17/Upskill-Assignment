@@ -36,7 +36,7 @@ a{
     width: 150px;
     border-radius: 50%;
     border: 2px solid #FFFFFF;
-    background-image: url(./assets/sample.jpg);
+    background-image: url(/Assets/sample.jpg);
     background-repeat: no-repeat;
     background-size: 150px 150px;
 }
