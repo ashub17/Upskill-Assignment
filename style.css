@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    padding: 84px 310px 125px 310px;
+    background-color: #F8F8F9;
+    display: flex;
+}
+/* Reset Hyperlinks */
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+/* Sidebar Section */
+.sidebar{
+    background-color: #0B2A5A;
+    width: 290px;
+    height: 1381px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+/* Profile */
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+/* Profile Photo */
+.profile-img{
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    background-image: url(./assets/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+/* Profile Title */
+.profile-name{
+    margin: 46px 44px 0px 44px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+}
+.profile-designation{
+    color: #9A9ABE;
+    margin: 9px 85px 0px 85px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 120px;
+}
+.profile-description{
+    color: #9A9ABE;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 100;
+}
+/* Menu */
+.menu{
+    margin: 30px 0px 0px 28px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.menu-list-item{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height:70px;
+    align-items: center;
+}
+.menu-list-item-icon{
+    width: 34px;
+    height: 30px;
+    /* margin-bottom: 41px; */
+}
+/* Selected menu */
+.selected{
+    border-left: 4px solid #60D91A;
+    margin-left: -28px;
+    /* display: flex;
+    align-items: center; */
+}
+.selected>div>span{
+    color: #60D91A !important;
+}
+.selected-icon{
+    margin-left: 24px;
+}
+.menu-list-item-text{
+    padding-left: 20px;
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #9A9ABE;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    /* margin-bottom: 41px; */
+}
+.badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16%;
+    left: 6%;
+    border-radius: 50%;
+    background:#DF0000;
+    color: #FFFFFF;
+    text-align: center;
+}
+/* Main Content */
+.dashboard{
+    margin-left: 50px;
+    margin-right: 310px;
+    display: flex;
+    flex-direction: column;
+}
+/* Cards */
+.card{
+    display: flex;
+}
+/* Individual Card */
+.card-item{
+    background-color: #6B00BC;
+    width: 280px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+/* Card Title and Text */
+.card-item-main{
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    margin: 26px 0px 24px 20px
+}
+.card-item-main-title{
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card-item-main-text{
+    margin-top: 8px;
+    text-align: left;
+    font-size: 32px;
+    letter-spacing: -0.8px;
+}
+/* Card logo */
+.card-item-logo{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 60px 20px 30px 0px;
+    align-self: center;
+}
+/* Buttons */
+.button{
+    margin-top: 50px;
+    display: flex;
+}
+/* Individual Buttons */
+.button-item{
+    width: 280px;
+    height: 40px;
+    background-color: #E8ECF1;
+    color: #728391;
+    border-radius: 20px;
+    margin-right: 60px;
+
+}
+.selected-button{
+    background-color: #0062FF;
+    box-shadow: #0062FF4D;
+    color: #FFFFFF;
+}
+.button-item-name{
+    text-transform: uppercase;
+    text-align: center;
+    font: normal normal normal 14px/40px Montserrat;
+    letter-spacing: 0px;
+}
+/* Dashboard content */
+.dashboard-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.content{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 960px;
+    height: 367px;
+    border-radius: 10px;
+}
+/* Main Content */
+.content-main{
+    display: flex;
+    margin-bottom: 31px;
+}
+/* content photo */
+.content-main-photo{
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 240px;
+}
+.content-main-top{
+    margin: 20px 0px 0px 50px;
+    font-size: 14px;
+    color: #728391;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content-main-title{
+    margin: 10px 129px 0px 50px;
+    letter-spacing: -0.6px;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #1000A9;
+}
+.content-main-datetime{
+    margin: 10px 0px 0px 50px;
+    color: #AAAABE;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.content-main-result{
+    margin: 49px 131px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-main-result-item-title{
+    color: #728391;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+.content-main-result-item-value{
+    margin-top: 8px;
+    color: #1000A9;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+}
+.content-link{
+    border-top: 5px solid #F8F8F9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-link-items{
+    margin: 31px 0px 34px 71px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.content-link-items-title{
+    margin-right: 58px;
+    color: #0062FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    font-weight: bold;
+}
+.content-link-social{
+    display: flex;
+    justify-content: space-between;
+}
+.content-link-social-item{
+    margin: 31px 20px 0px 0px ;
+}
+.fa-facebook-f {   
+    width: 11px;   
+    height: 20px;  
+    font-size: 20px;
+    color: #728391; 
+} 
+.fa-linkedin-in {
+    font-size: 20px;   
+    width: 20px;   
+    height: 20px;   
+    color: #728391; 
+}
+
+
